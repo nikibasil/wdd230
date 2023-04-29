@@ -1,16 +1,38 @@
 body {
     font-size: 18px;
     line-height: 1.5;
-    max-width:600px;
+    max-width:625px;
 }
 
+
+/* #flex-text {
+    width: 400px;
+} */
+
 header nav main footer {
-    margin: 1.25rem auto;
-    /* max-width: 650px;   */
+    /* margin: 1.25rem auto; */
+    margin: 0 auto;
+    padding: 0.75 rem;
+    max-width: 45 rem;
+    
 }
 
 h1 {
-    padding: 1rem;
+    padding: 1rem; */
+    font-family: 'Poltawski Nowy', serif;
+    /* font-family: 'Poltawski Nowy', serif; */
+    font-size: 2.25rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+main {
+    /* font-family: 'Vollkorn', serif; */
+        /* font-family: 'IBM Plex Serif', serif; */
+    font-family: 'Karma', serif;
+    margin: 1.5rem;
 }
 
 header,
@@ -24,14 +46,15 @@ footer {
 header {
     padding: 1.5rem;
     display: flex;
+    flex-wrap: wrap;
 }
 
-img {
+header img {
     margin: 10px;
     border: 1px solid #34282C;
-    width: 25%;
-    border-radius:50%
-
+    width: 150px;
+    border-radius:50%;
+    /* border-radius: 0 10 0 0; */
 }
 
 footer {
