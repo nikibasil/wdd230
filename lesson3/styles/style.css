@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=IBM+Plex+Sans&family=Montserrat:wght@400;600&family=Open+Sans&display=swap');
+
+.content {
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  
+}
+
+
+
+section.personas img {
+  width:50%;
+} 
+
+
+section{
+  background-color:lightgrey;
+  padding:5px;
+  margin:5px;
+  border-radius: 5px;
+}
+
+section h2 {
+
+  background-color: #004747;
+  color: #fff;
+  /* text-align: center; */
+  border-radius: 5px 5px 0px 0px;
+  padding:5px;
+}
+section img{
+  width: 100%;
+  
+}
+.card-profileCard{
+  width: 100%; 
+  /* border-radius: 20px; 
+  overflow: hidden; */
+}
+
+.card-header {
+  position: relative; /* since some child is absolute */
+  height: 110px;
+  /* background-color: #DB3834; */
+  background-image: url(https://raw.githubusercontent.com/nikibasil/wdd130/81422d81fb57f478e6a179fb2936ebcdf52a096f/mroberts/images/banner.webp);
+}
+
+
+.card-img {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  width: 100px; height: 100px;
+  transform: translateY(50%); /* additional 50% of own height */
+  box-shadow: 0 0 0 10px #fff;
+}
+
+main.about{
+  
+  margin: 10%;
+  
+}
+
+main.middle{
+  grid-column: 2/3;
+  margin:8%;
+
+}
+ main{
+  display:grid;
+  
+ }
+
+aside{
+  display:grid;
+}
+
+
+header {
+  background-color: #357266;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-around;
+
+  overflow: hidden;
+  
+}
+
+nav a {
+  float: left;
+  text-align: center;
+  /* color: #ffc857; */
+  /* color: white; */
+  /* color: #edbb90; */
+  color: #fcfbfb;
+  text-decoration: none;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
+nav a:hover {
+  background-color: #DB3834;
+  color: #fcfbfb;
+}
+
+
+
+.social {
+  /* float: right; */
+  grid-column: 3/4;
+  margin: auto;
+  padding-right: 25px;
+}
+
+#grid-portfolio{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-rows:1fr 4fr; */
+}
+
+#grid-portfolio img{
+  width:100%;
+  /* margin: 10px; */
+
+}
+
+/* portfolio */
+.row1{
+  text-align: center;
+  margin:40px;
+}
+
+/* section .row2{
+  grid-row:2/5;
+} */
+.aside-left{
+  grid-column: 1/2;
+  margin:30px;
+}
+
+/* main{
+  grid-column:2/3;
+  margin:30px;
+
+} */
+
+
+
+.aside-right{
+  grid-column: 3/4;
+  margin:30px;
+
+}
+.me {
+  position: absolute;
+  top: 17px;
+  left: 50px;
+  color: #fcfbfb;
+  font-family: Montserrat, Helvetica, sans-serif ;
+  padding-top: 100px;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+ margin-right:60%;
+}
+
+.me p {
+  grid-column: 1/2;
+  font-family: 'IBM Plex Mono', Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+h2{
+  font-family: 'IBM Plex Mono', Helvetica, sans-serif;
+  font-size:1em;
+}
+
+h1{
+  font-family: Montserrat, Helvetica, sans-serif;
+  font-size: 1.5em;
+}
+
+h3{
+  font-family: Montserrat, Helvetica, sans-serif;
+  font-size:.75em;
+  text-align: center;
+  color:#DB3834;
+}
+h4{
+  font-family: Montserrat, Helvetica, sans-serif;
+  font-size:.75em;
+  text-align: center;
+}
+
+.background {
+  /* background-size: contain; */
+  max-width: 100%;
+  background-position: center center;
+}
+
+footer {
+  padding: 15px;
+  margin-top:5px;
+  border: 0px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  color: #fcfbfb;
+  background-color: #DB3834;
+  
+} 
+footer a:hover {
+  background-color: #DB3834;
+  color: #fcfbfb;
+}
+
+.bmenu a{
+  /* padding:10px; */
+  /* float: right; */
+  text-align: center;
+  /* color: #ffc857; */
+  color: #fcfbfb;
+  text-decoration: none;
+  padding: 14px 16px;
+  font-size: 17px;
+  
+}
+footer p{
+  padding:10px;
+}
+footer .back{
+  background-color: #DB3834;
+}
+
+.bmenu {
+  display: flex;
+  justify-content: space-around;
+
+  overflow: hidden;
+  padding-top: 15px;
+  grid-column: 2/3;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+  font-size: 17px;
+  
+}
+
+.copyw {
+  border: 0px;
+  grid-column: 1/2;
+  margin: 0;
+  padding:0;
+}
