@@ -1,0 +1,26 @@
+@media only screen and (min-width: 35rem)
+{
+
+    h1 {
+		font-size: 1.75rem
+	}
+	
+	/* #hamButton {
+		display: none; /* hide hamburger button */
+	}  */
+	
+	/* .navigation {
+		flex-direction: row;
+	} */
+	
+	.navigation li {
+		display: block;
+		flex: 1 1 auto;
+	}
+
+/*  */
+    .logo img {
+	width: 125px;
+	height: auto;
+}
+
