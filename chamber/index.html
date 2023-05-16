@@ -19,11 +19,12 @@
 <!-- enhance-desktop -->
 <link href="styles/large.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Karma&family=Poltawski+Nowy&display=swap" rel="stylesheet">
 </head>
 <body>
 <!-- HEADER HERE -->
-<header class="site-header">
-
+<header>
+    <section class="site-header">
     <div class="logo">
 		<picture>
 			<img src="images/images/logo2.png" alt="Armidale CC">
@@ -34,43 +35,93 @@
             <h1> Chamber of Commerce</h1>
         </section>
 	</div>
+    <nav>
+        <button id="hamButton">&#9776;</button>
+        <ul class="navigation">
+            <li><a href="#" title="Discover">Discover</a></li>
+            <li><a href="#" title="Directory">Directory</a></li>
+            <li><a href="#" title="Join">Join</a></li>
+            <li><a href="#" title="Contact">Contact</a></li>
+        </ul>
+    
+    </nav>
     <div class="social">
         <a href="#" id="sIcon" class="fa fa-facebook"></a>
         <a href="#" id="sIcon" class="fa fa-linkedin"></a>
         <!-- <a href="#" class="fa fa-twitter"></a> -->
 
     </div>
+    </section>
      <!-- <h2>Possible Slogan or Tagline</h2> -->
           
     <!-- NAVIGATION HERE -->
     
-    <nav>
-        <button id="hamButton">&#9776;</button>
-        <ul class="navigation">
-            <li><a href="#" title="Home">Home</a></li>
-            <li><a href="#" title="About">About</a></li>
-            <li><a href="#" title="Service">Service</a></li>
-            <li><a href="#" title="History">History</a></li>
-            <li><a href="#" title="Contact">Contact</a></li>
-        </ul>
     
-    </div>
+    <section id="currentdate"></section>
+    <section id="time"></section>
 </header>
 <!-- CONTENT HERE -->
-    <main>
-        <h1>Products</h1>
-        <p>The page name shoud almost exactly match the menu item. </p>
-        <hr>
-    </main>
+<div class="main-grid">
     
+        <main class="main-content">Main content</main>
+        <section class="left-sidebar">Left sidebar</section>
+        <aside class="right-sidebar">Right sidebar</aside>
+        
+    
+</div>    
  
-    <footer>
+    <footer class="footer">
+        <section id ="footer_address">
+            <div class="logo">
+                <picture>
+                    <img src="images/images/logo2.png" alt="Armidale CC">
+                </picture>
+                <section class="headings">
+                    <h1>Armidale Chamber of Commerce</h1>
+                    <p>Shp 26/ 126 Beardy Street, Armidale NSW 2350 </p>
+                </section>
+                <div class="contact">
+                    <p>rdani@rdani.org.au</p>
+                        <p>02 6771 0700</p>
+                        <p><a href ="https://goo.gl/maps/suMZVAJj6MRC7o827">Location Map</a></p>
+                                  
+                </div>
+            </div>
+        
+            
+
+        
+        <section id="copy">
         <p>&copy;<span id="thisyear"></span> Armidale Chamber of Commerce &#124; 
               Monique Roberts &#124; WDD 230 Project &#124;<span id='dateForm'></span>
-    </footer>
+        </section>
+
+        <!-- <section id ="location">
+            <div class="logo">
+                <picture>
+                    <img src="images/images/logo2.png" alt="Armidale CC">
+                </picture>
+                <section class="headings">
+                    <h1>Armidale Chamber of Commerce</h1>
+                    <p>Shp 26/ 126 Beardy Street, Armidale NSW 2350 </p>
+                </section>
+            </div>
+            <div class="contact">
+                <p>rdani@rdani.org.au</p>
+                    <p>02 6771 0700</p>
+                    <p><a href ="https://goo.gl/maps/suMZVAJj6MRC7o827">Location Map</a></p>
+                              
+            </div>
+
+        </section>
+        <section id="copy">
+        <p>&copy;<span id="thisyear"></span> Armidale Chamber of Commerce &#124; 
+              Monique Roberts &#124; WDD 230 Project &#124;<span id='dateForm'></span>
+        </section> -->
+            </footer>
     
 <script src="js/scripts.js"></script>
-<script src="scripts/footer.js"></script>
+<script src="scripts/dates.js"></script>
 <script src="scripts/hamburger.js"></script>
 </body>
 </html>
