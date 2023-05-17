@@ -39,12 +39,30 @@
     }
 
 	.main-grid {
-        /* grid-template-columns: repeat(4, 1fr); */
-		grid-template-columns:  1fr 2fr 1fr;
+        grid-template-columns: repeat(4, 1fr); 
+		 grid-template-columns:  1fr 2fr 1fr;
         grid-template-areas:
             'left-sidebar main-content right-sidebar';
-    }
+    }  
 
+	#time {
+		justify-content: center;
+	}
+	
+	/* .main-grid {
+
+		
+			display: grid;
+			place-items: center;
+			grid-template-rows: repeat(3,auto);
+			grid-template-columns: repeat(4,auto);
+			grid-gap: 20px;
+		  } */
+	
+
+	.section-img-profile{
+		width:100%;
+	}
 	/* .container {
 				  
 		grid-template-areas:

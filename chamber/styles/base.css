@@ -58,6 +58,15 @@ header {
 		grid-template-columns: minmax(max-content, 900px) minmax(200px, 1fr) 150px;
   grid-gap: 10px;
     }
+
+	/* .main-grid {
+		grid-row: 2/3;
+display: grid;
+place-items: center;
+grid-template-rows: repeat(5,auto);
+text-align: center;
+margin: 15px;
+	} */
 	.main-grid > * {
 		padding:1rem;
 	}
@@ -73,7 +82,9 @@ header {
 		grid-area:right-sidebar;
 		background:#c5ed77;
 	}
-  
+	.section-img-profile{
+		width:17%;
+	}
   
 
  #currentdate {
@@ -103,7 +114,7 @@ header {
 }
 
 .logo img {
-	width: 100px;
+	width: 80px;
 	height: auto;
 }
 
@@ -177,6 +188,13 @@ nav {
     /* position:relative;
     top: 5px;
     left: 5px; */
+	display:flex;
+	line-height: .10;
+    height: 175px;
+}
+
+ul .navigation {
+	line-height: .1;
 }
 
 /* small view navigation */
@@ -189,6 +207,8 @@ nav {
 	font-size: 1.5rem;
 	padding: .5rem;
 	color: #1b546aff;
+	height: 60px;
+    margin-top: 60px;
 }
 .navigation {
 	display: flex;
@@ -196,6 +216,7 @@ nav {
 	flex-direction: column;
 	list-style: none;
 	background-color: #1b546aff;
+	padding-inline-start: 0px;
 }
 .navigation li {
 	display: none;
