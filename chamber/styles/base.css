@@ -103,7 +103,7 @@ header {
 }
 
 .logo img {
-	width: 80px;
+	width: 100px;
 	height: auto;
 }
 
@@ -271,6 +271,10 @@ footer {
   footer p {
 	color: #f5f5f5ff;
 	font-size: .75rem;
+  }
+
+  .contact p a {
+	text-decoration: none;
   }
 #copy {
 	display: flex;
