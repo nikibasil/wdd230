@@ -1,10 +1,21 @@
-/* @media only screen and(min-width:24rem) { */
+/* @media only screen and(min-width:44rem) { */
+    @media (min-width:1024px) {
 
-	@media (min-width:1024px) {
+    .container {              
+        grid-template-areas:
+          "header header header"
+          "left-side content right-side"
+          "footer footer footer";
+      
+        grid-template-columns: 1fr 2fr 1fr;
+        /* grid-template-rows: auto 1fr auto; */
+        grid-gap: 10px;
+      
+        height: 100vh;
+      }
 
-		
     h1 {
-		font-size: 1.25rem
+		font-size: 1.75rem
 	}
 	
 	#hamButton {
@@ -14,6 +25,10 @@
 	.navigation {
 		flex-direction: row;
 	}
+  nav {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
 	
 	.navigation li {
 		display: block;
@@ -25,57 +40,47 @@
 	}
 
 	.headings h1 {
-		font-size: 1.5rem;
+		font-size: 2.3rem;
 		margin: 0;
 	}
-	footer p {
-		color: #f5f5f5ff;
-		font-size: 1.25rem;
-	  }
 
-    .logo img {
-        width: 150px;
+    /* .logo img {
+        width: 250px;
         height: auto;
+    } */
+    .logo {
+      
+      height: 200px;
+      width: 200px;
+    }
+    .social {
+      flex-direction: row;
+      grid-column: 3/4;
+    }
+    .main-grid {
+      grid-template-columns: repeat(4, 1fr); 
+   grid-template-columns:  1fr 2fr 1fr;
+      grid-template-areas:
+          'left-sidebar main-content right-sidebar';
+  }  
+  li {
+    font-size: 22px;
+  }
+
+	.holy-grail-grid {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+            'left-sidebar main-content main-content right-sidebar';
     }
 
-	.main-grid {
-        grid-template-columns: repeat(4, 1fr); 
-		 grid-template-columns:  1fr 2fr 1fr;
-        grid-template-areas:
-            'left-sidebar main-content right-sidebar';
-    }  
-
-	#time {
-		justify-content: center;
-	}
-	
-	/* .main-grid {
-
-		
-			display: grid;
-			place-items: center;
-			grid-template-rows: repeat(3,auto);
-			grid-template-columns: repeat(4,auto);
-			grid-gap: 20px;
-		  } */
-	
-
-	.section-img-profile{
-		width:100%;
-	}
-	/* .container {
-				  
-		grid-template-areas:
-		  "header header header"
-		  "left-side content right-side"
-		  "footer footer footer";
-	  
-		grid-template-columns: 1fr 2fr 1fr;
-		/* grid-template-rows: auto 1fr auto; */
-		/* grid-gap: 10px;
-	  
-		height: 100vh; */
-	  /* } */ 
-
+    .fa {
+      
+      width: 20px;
+      
+    }
+    
+    .footer img {
+      width:200px;
+    }
 
 }
