@@ -17,6 +17,19 @@
     h1 {
 		font-size: 1.75rem
 	}
+  .site-header h1 {
+    font-size: 1.25rem;
+ 
+   }
+   .hero-text h2{
+     font-size:1.5rem;
+   }
+ 
+   .hero-container .hero-text {
+     
+       height: 30%;
+       /* opacity: .6; */
+   }
 	
 	#hamButton {
 		display: none; /* hide hamburger button */
@@ -50,8 +63,12 @@
     } */
     .logo {
       
-      height: 200px;
-      width: 200px;
+      /* height: 200px;
+      width: 200px; */
+
+      height: 150px;
+      width: 150px;
+      margin: 15px;
     }
     .social {
       flex-direction: row;
