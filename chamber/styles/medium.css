@@ -11,6 +11,7 @@
             'left-sidebar right-sidebar'
             'footer footer';
     }
+    
 
     .main-grid {
         grid-template-columns: 1fr 1fr;
