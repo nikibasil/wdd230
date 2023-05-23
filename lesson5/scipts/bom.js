@@ -14,10 +14,10 @@ newItem.appendChild(newSpan);
 newSpan.textContent = myItem;
 newItem.appendChild(newButton);
 newButton.textContent = 'Delete';
-list.appendChild(listItem);
+list.appendChild(newItem);
 
 newButton.addEventListener("click", ()=> {  
-list.removeChild(listItem);
+list.removeChild(newItem);
 });
 
 input.focus;
