@@ -17,6 +17,14 @@
     h1 {
 		font-size: 1.75rem
 	}
+
+  div#greet.row {
+    
+    font-size: 1rem;
+    /* color: #f5f5f5ff; */
+   
+  }
+
   .site-header h1 {
     font-size: 1.25rem;
  
@@ -40,7 +48,7 @@
 	}
   nav {
     grid-column: 2/3;
-    grid-row: 1/2;
+    grid-row: 2/3;
   }
 	
 	.navigation li {
