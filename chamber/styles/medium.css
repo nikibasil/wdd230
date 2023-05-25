@@ -47,4 +47,20 @@
             'left-sidebar right-sidebar'
             ;
     }
+
+    .r-footer>* {
+        flex: 1;
+      }
+ 
+      .features {
+        flex-grow: 2;
+      }
+ 
+      .l-footer {
+        flex: 1 0px;
+      }
+ 
+      .r-footer {
+        flex: 2 0px;
+      }
 }
