@@ -58,7 +58,7 @@
                 <h2>Event</h2>
                 <picture>
                 <img class="event-img"
-                    src="images/ember-luncheon.jpg"
+                    src="images/ember-luncheon-300.webp"
                     alt="ember fundraiser">
                 </picture>
                 </section>
@@ -68,14 +68,19 @@
                     src="images/sun-icon-50.webp"
                     alt="important graph">
                     <h3> Today Sunny</h3>
-                    <p> 18° C</p>
+                    <p><span id="temp"></span>&deg; F</p>
                      <br>
                      <hr>
-                <p>Some Text goes here, some text goes here, some text goes here, some text goes here.</p>
-                <img class="section-img"
-                    src=""
-                    alt="important graph">
-                <a href="#" class="info-link">Learn more...</a>
+                <!-- <p id="p-left">Wind Chill: <span id="wind"></span>&deg;</p>
+               <p> -->
+                <p>
+                <!-- <ul> -->
+                    <br>
+                     Wind Speed: <span id="wind"></span>&deg; mph
+                     <br>Wind Chill: <span id="windChill"></span>&deg;  
+                <!-- </ul>  -->
+               </p>
+                <br>
             </section>
             <section id="join">
                 <button class="join"> <a href="#" class="info-link">Join Us!</a></button>
@@ -86,13 +91,17 @@
         <main class="main-content">
             <section class="hero-container">
                 <picture>
-                    <source media="(min-width: 900px)" srcset="images/hero-900.webp">
-                    <source media="(min-width: 600px)" srcset="images/hero-600.webp">
+                    <source media="(min-width: 1025px)" srcset="images/hero-900.webp">
+                    <source media="(min-width: 768px)" srcset="images/hero-600.webp">
                     <img src="images/hero-300.webp" widthalt="" />
                 </picture>
                 <div class="hero-text">
-                    <h2>Welcome to Armidale</h2>
+                    <!-- <h2>Welcome to Armidale</h2> -->
+                    <h2><span class="sm-image">300</span>
+                        <span class="med-image">600</span>
+                        <span class="lrg-image">900</span></h2>
                 </div>
+                
                 <button class="join"> <a href="#" class="info-link">Join the Chamber</a></button>
             </section>
             <section id="news">
@@ -170,6 +179,7 @@
     
     <script src="scripts/dates.js"></script>
     <script src="scripts/hamburger2.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </div>
 

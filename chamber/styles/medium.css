@@ -40,6 +40,14 @@
 	height: auto;
 	}
 
+  .med-image{
+    display: inline-block;
+   } 
+
+   .sm-image, .lrg-image{
+    display: none; 
+   }
+
 	.holy-grail-grid {
         grid-template-columns: 1fr 1fr;
         grid-template-areas:

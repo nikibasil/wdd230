@@ -92,6 +92,14 @@
     font-size: 22px;
   }
 
+  .lrg-image{
+    display: inline-block;
+   } 
+
+   .sm-image, .med-image{
+    display: none; 
+   }
+
 	.holy-grail-grid {
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas:

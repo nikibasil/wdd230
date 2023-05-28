@@ -299,6 +299,22 @@
      text-align: center;
    }
 
+   .sm-image{
+    display: inline-block;
+   } 
+
+   .med-image, .lrg-image{
+    display: none; 
+   }
+
+   p#p-left {
+    text-align: left;
+  }
+  section#weather ul{
+    margin:10px;
+    font-size:16px;
+  }
+
    #spotlight h2 {
      color: #c3423fff;
      /* color:#f9a03fff; */
