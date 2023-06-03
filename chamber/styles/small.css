@@ -122,6 +122,13 @@
      /* background: #00bcd4; */
    }
 
+   .discover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
    .section-img-profile {
      /* width: 17%; */
      width: 100%;
