@@ -12,4 +12,8 @@ img {
     transition: filter 0.5s;
   }
 
-  
+  /* img[srcset] {
+    filter: blur(0.2em);
+  } */
+
+ 

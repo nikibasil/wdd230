@@ -8,25 +8,33 @@
     <title>Lazy Load</title>
 </head>
 <body>
-    <h1>      
-    </h1>
+    <h1> Lazing Loading Images   </h1>
+    
+<!--     
+        <img src="images/300x400.png" data-src="https://picsum.photos/id/666/300/400" alt="image1" >
+        <img src="images/300x400.png" data-src="images/image2-300x400.jpg" alt="image2" loading="lazy">
+        <img src="images/300x400.png" data-src="images/image3-300x400.jpg" alt="image3" loading="lazy">
+        <img src="images/300x400.png" data-src="images/image4-300x400.jpg" alt="image4" loading="lazy">
+        <img src="images/300x400.png" data-src="images/image5-300x400.jpg" alt="image5" loading="lazy" width="300" height="400">
+     -->
+
+     <picture>
+        <source srcset="https://picsum.photos/id/666/300/400">
+        <img src="images/300x400.png" data-src="https://picsum.photos/id/666/300/400" alt="image1" loading="lazy">
+        </picture>
     <picture>
-        <image src="images/300x400.png" srcset="https://picsum.photos/300/400" alt="image1" loading="lazy"/>
-      
+        <img src="images/300x400.png" srcset="https://picsum.photos/id/803/300/400" alt="image2" loading="lazy">
     </picture>
     <picture>
-        <img src="images/300x400.png" srcset="https://picsum.photos/300/400" alt="image2" loading="lazy"/>
+        <img src="images/300x400.png" srcset="https://picsum.photos/id/844/300/400" alt="image3" loading="lazy">
     </picture>
     <picture>
-        <img src="images/300x400.png" srcset="https://picsum.photos/300/400" alt="image3" loading="lazy"/>
+        <img src="images/300x400.png" srcset="https://picsum.photos/id/104/300/400" alt="image4" loading="lazy">
     </picture>
     <picture>
-        <img src="images/300x400.png" srcset="https://picsum.photos/300/400" alt="image4" loading="lazy"/>
+        <img src="images/300x400.png" srcset="https://picsum.photos/id/172/300/400" alt="image5" loading="lazy">
     </picture>
-    <picture>
-        <img src="images/300x400.png" srcset="https://picsum.photos/300/400" alt="image5" loading="lazy"/>
-    </picture>
-   
+    
 
 
 

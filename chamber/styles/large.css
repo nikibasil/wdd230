@@ -18,6 +18,16 @@
 		font-size: 1.75rem
 	}
 
+  .site-header h1 {
+    padding: 35px 20px;
+}
+  .discover-container h1 {
+    font-size: 2rem
+}
+
+.discover-container h2{
+  font-size: 1.25rem;
+}
   div#greet.row {
     
     font-size: 1rem;
