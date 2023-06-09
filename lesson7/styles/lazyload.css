@@ -10,10 +10,9 @@ img[data-src] {
 img {
     filter: blur(0em);
     transition: filter 0.5s;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
   }
 
-  /* img[srcset] {
-    filter: blur(0.2em);
-  } */
-
- 
+  
