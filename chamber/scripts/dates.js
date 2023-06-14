@@ -1,6 +1,20 @@
 
 // GET CURRENT DATE
 const now = new Date();
+// GET CURRENT TIME
+const time = now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds();
+
+const cDate = now.getFullYear() + '-' + (now.getMonth() + 1) + '-' + now.getDate();
+const cTime = now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds();
+const dateTime = cDate + ' ' + cTime;
+console.log(dateTime);
+
+const formDate = document.querySelector('.date-time');
+formDate.value = dateTime;
+console.log(formDate.value);
+
+
+
 // GET YEAR
 // update = new Date(document.lastModified)
 const update = new Date(document.lastModified)
@@ -62,25 +76,11 @@ localStorage.setItem("numVisits-ls", numVisits);
 
 // 💡A client can view the localStorage data using the Applications panel in the browsers's DevTools - check it out on any major site.
 
+//output to html
+// formDate.value = date;
+// console.log(formDate.value);
 
-// const dayNames = [
-// 	"Sunday",
-// 	"Monday",
-// 	"Tuesday",
-// 	"Wednesday",
-// 	"Thursday",
-// 	"Friday",
-// 	"Saturday"
-// ];
 
-// const day = dayNames[now.getDay()]
-
-// greet = document.getElementById('greet')[0]
-
-// if (day != 'Monday' && day != 'Tuesday')
-// {
-// 	greet.style.display = "none"
-// }
 
 
 
