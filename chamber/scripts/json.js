@@ -6,7 +6,7 @@ async function getBusinessData(url) {
    
     if (response.ok) {
         const data = await response.json();
-        console.log(data.business);
+        // console.log(data.business);
         displayBusiness(data.business);
     }
         
