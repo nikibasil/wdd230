@@ -158,6 +158,19 @@ grid-column: 2/3;
       width: 20px;
       
     }
+
+    .busdr {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .list section {
+      display: grid;
+      grid-template-columns: 20% 30% 20% 30%;
+      padding: 0.2em;
+      border: 1px solid rgba(0, 0, 0, 0.4);
+    }
     
     .footer img {
       width:200px;
