@@ -825,6 +825,60 @@ div.mtable {
    padding: 0.3em; 
    width:100%;
 }
+cards section h3 {
+	font-size: 1.5rem;
+}
+
+cards section p {
+	font-weight: 600;
+	font-size: smaller;
+}
+
+cards section a {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 0.85rem;
+	color: navy;
+	letter-spacing: 1.1pt;
+}
+
+cards img {
+	height: 75px;
+	max-width: 100%; /* Images are jerks - Seattle*/
+}
+
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+
+.list section > * {
+	margin: 0 1rem;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+.list section h3 {
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+.list section:nth-child(even) {
+	background-color: #bed;
+}
+
+
+
+
 
 .busdir h1 {
   background-color: #c3423fff; 
@@ -839,6 +893,7 @@ div.mtable {
     margin: 1rem;
     position: relative;
   }
+
 
 
 /*----------- FOOTER --------------*/  
