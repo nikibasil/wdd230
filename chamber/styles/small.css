@@ -135,6 +135,17 @@
        justify-content: center;
        background-color: #f9a03fff;
    }
+   p.last-visited{
+    text-align: center;
+    padding: 15px;
+    /* background-color: black; */
+    background-color: #f9a03fff;
+    font-family: 'Ubuntu';
+    width: 80%;
+    margin: 10px auto;
+    font-size: 1rem;
+    /* color: white; */
+   }
 
    .discover {
     display: flex;
