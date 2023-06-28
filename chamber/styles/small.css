@@ -122,6 +122,8 @@
    .main-grid>.right-sidebar {
      grid-area: right-sidebar;
      /* background: #00bcd4; */
+     height: 100%;
+    margin-top: 20px;
    }
 
    .visit-container{
@@ -194,10 +196,21 @@
      position: relative;
    }
 
-   .weather-img {
-     width: 80px;
+   .weather-img, img#weather-icon {
+     width: 150px;
      height: auto;
      float: left;
+   }
+
+   .weather {
+    /* display: grid; */
+    text-align: center;
+    /* grid-template-columns: 1fr 2fr; */
+   }
+
+   .temp {
+    margin-bottom: 10px;
+margin-left: 15px;
    }
 
    /* picture {
@@ -255,7 +268,7 @@
    .hero-container img {
      vertical-align: middle;
      width: 100%;
-     height: auto;
+     height: 100%;
    }
 
    .hero-container .hero-text {
@@ -374,7 +387,18 @@
     margin:10px;
     font-size:16px;
   }
+  figure{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-bottom: 1px solid; */
+    margin: 1em 40px;
+  }
 
+  p.source {
+    font-size: .75em;
+    margin-top:20px;
+  }
    #spotlight h2 {
      color: #c3423fff;
      /* color:#f9a03fff; */
@@ -409,6 +433,7 @@
    #join,
    #event,
    #weather,
+   #w,
    section.right-sidebar {
      background-color: #f5f5f5ff;
      border: 2px solid #061217;
