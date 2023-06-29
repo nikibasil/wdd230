@@ -31,7 +31,8 @@ async function getBusinessData(url) {
       let address = document.createElement('p');
       let logo = document.createElement('img');
       let phone = document.createElement('p');
-      let website = document.createElement('p');
+      let website = document.createElement('a');
+      let member = document.createElement('p');
   
       // Build the h2 content 
       name.textContent = `${business.name} `;
@@ -39,18 +40,23 @@ async function getBusinessData(url) {
       // Build the image logo by setting all the relevant attribute
       phone.textContent = `${business.phone}`;
       website.textContent = `${business.website}`;
+      member.textContent = `${business.member}`;
       logo.setAttribute('src', business.imageurl);
       logo.setAttribute('alt', `Logo of ${business.name}`);
       logo.setAttribute('loading', 'lazy');
       logo.setAttribute('width', '340');
       logo.setAttribute('height', '440');
+      website.setAttribute('href', business.website);
+      website.setAttribute('target', '_blank')
   
       // Append the section(card) with the created elements
       card.appendChild(name);
       card.appendChild(logo);
       card.appendChild(address);
       card.appendChild(phone);
+      card.append(member);
       card.appendChild(website);
+      
     
       // card.append(p)
       cards.appendChild(card);

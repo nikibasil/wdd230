@@ -4,7 +4,7 @@
         "name": "Flightboard",
         "address": "156 Jonson Street, Armidale NSW 572 Australia ",
         "phone": "+61 2 5118 9888",
-        "member": "silver",
+        "member": "Silver Membership",
         "website": "https://fliteboard.com",
         "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/flite.webp"
       },
@@ -12,7 +12,7 @@
         "name": "Brookfarm",
         "address": "14B Banksia Drive, Armidale NSW 2481 Australia",
         "phone": "+61 2 6620 9500",
-        "member": "gold",
+        "member": "Gold Membership",
         "website": "https://brookfarm.com.au",
         "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/brookfarm_logo.avif"
       },
@@ -20,7 +20,7 @@
         "name": "Four Drunk Parrots",
         "address": "2 Martin St, Armidale NSW 2478 Australia",
         "phone": "+61 2 6686 0117",
-        "member": "gold",
+        "member": "Bronze Membership",
         "website": "https://4dp.com.au/services/tech/",
         "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/4dp-logo.webp"
       },
@@ -28,7 +28,7 @@
         "name": "Southern Cross University",
         "address": "Military Rd, East Lismore NSW 2480 Australia",
         "phone": "1800 005 687",
-        "member": "gold",
+        "member": "Gold Membership",
         "website": "https://www.scu.edu.au/",
         "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/scu-logo.png"
       },
@@ -36,7 +36,7 @@
         "name": "Bun Coffee",
         "address": "2 Martin St, Armidale NSW 2478 Australia",
         "phone": "0266809798",
-        "member": "bronze",
+        "member": "Bronze Membership",
         "website": "https://www.buncoffee.com.au/",
         "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/bun-coffee-logo.png"
       },
@@ -44,7 +44,7 @@
         "name": "Green Thumb Media",
         "address": "2 Martin St, Armidale NSW 2478 Australia",
         "phone": "0407 456 361",
-        "member": "silver",
+        "member": "Silver Membership",
         "website": "https://www.greenthumbmedia.com.au/",
         "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/gtm-logo.webp"
       },
@@ -52,7 +52,7 @@
         "name": "Four Drunk Parrots",
         "address": "2 Martin St, Armidale NSW 2478 Australia",
         "phone": "+61 2 6686 0117",
-        "member": "gold",
+        "member": "Gold Membership",
         "website": "https://4dp.com.au/services/tech/",
         "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/brookfarm_logo.avif"
       },
@@ -60,7 +60,7 @@
         "name": "Four Drunk Parrots",
         "address": "2 Martin St, Armidale NSW 2478 Australia",
         "phone": "+61 2 6686 0117",
-        "member": "gold",
+        "member": "Bronze Membership",
         "website": "https://4dp.com.au/services/tech/",
         "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/brookfarm_logo.avif"
       },
@@ -68,7 +68,7 @@
         "name": "Four Drunk Parrots",
         "address": "2 Martin St, Armidale NSW 2478 Australia",
         "phone": "+61 2 6686 0117",
-        "member": "np",
+        "member": "Non-profit Membership",
         "website": "https://4dp.com.au/services/tech/",
         "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/brookfarm_logo.avif"
       }      

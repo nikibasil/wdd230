@@ -925,7 +925,19 @@ cards img {
   height:50px;
   padding: 10px;
 }
+ article.cards a {
+  color: #1b546aff;
+  font-weight:bold;
+ }
 
+ article.cards a:visited {
+  color: #7ac74fff;
+}
+
+/* mouse over link */
+article.cards a:hover {
+  color:#c3423fff;
+}
 
 
 /* .busdir h1 {
@@ -987,6 +999,121 @@ cards img {
    .footer a {
      text-decoration: none;
    }
+   .footer a:link {
+    color: #7ac74fff;
+  }
+
+  p#map a {
+    color: #7ac74fff;
+    text-decoration: underline;
+    font:bold;
+  }
+
+  p#map a:hover {
+    color: #f9a03fff;
+    text-decoration: underline;
+  }
+  a:link {
+    color:#7ac74fff; 
+      }    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      CV-+X+-+
+      -+
+      ++
+      ++
+      -+
+
+      +
+
+
+      +
+
+      +
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      +
+      +
+
+
+  }
 
    .r-footer {
      display: flex;
@@ -1025,7 +1152,7 @@ cards img {
    }
 
    footer a:hover {
-     color: #f9a03fff;
+     color: #c3423fff;
      background-color: transparent;
      text-decoration: none;
    }
