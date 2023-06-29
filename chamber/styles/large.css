@@ -113,6 +113,9 @@
    form label.mlevel {
     padding: .4rem 0;
 }
+  form {
+    margin: auto;
+  }
 
 	.holy-grail-grid {
         grid-template-columns: repeat(4, 1fr);

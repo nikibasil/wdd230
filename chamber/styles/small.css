@@ -672,7 +672,7 @@ form label.top input, form label.top select, form textarea {
 }
 
 .join-content h1 {
-  color:#1b546aff;
+  color:#c3423fff;
   margin-top:10px;
 }
 
@@ -815,6 +815,7 @@ padding: 10px;
 /* place-self: center; */
 /* border: 2px solid black; */
 border: thin solid hsla(0,0%,20%,.8);
+
 }
 
 div.mtable {
@@ -838,7 +839,8 @@ div.mtable {
   align-items: center;
 }
 .cards section > p {
-  min-height: 60px;
+  /* min-height: 60px; */
+  padding:3px;
 }
 
 .cards section h2 {
