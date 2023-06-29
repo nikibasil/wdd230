@@ -4,7 +4,7 @@
         "name": "Flightboard",
         "address": "156 Jonson Street, Armidale NSW 572 Australia ",
         "phone": "+61 2 5118 9888",
-        "member": "gold",
+        "member": "silver",
         "website": "https://fliteboard.com",
         "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/flite.webp"
       },
@@ -36,7 +36,7 @@
         "name": "Bun Coffee",
         "address": "2 Martin St, Armidale NSW 2478 Australia",
         "phone": "0266809798",
-        "member": "gold",
+        "member": "bronze",
         "website": "https://www.buncoffee.com.au/",
         "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/bun-coffee-logo.png"
       },
@@ -68,7 +68,7 @@
         "name": "Four Drunk Parrots",
         "address": "2 Martin St, Armidale NSW 2478 Australia",
         "phone": "+61 2 6686 0117",
-        "member": "gold",
+        "member": "np",
         "website": "https://4dp.com.au/services/tech/",
         "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/brookfarm_logo.avif"
       }      

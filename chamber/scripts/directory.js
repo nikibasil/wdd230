@@ -6,7 +6,7 @@ async function getBusinessData(url) {
    
     if (response.ok) {
         const data = await response.json();
-        // console.log(data.business);
+        console.log(data.business);
         displayBusiness(data.business);
     }
         
@@ -33,7 +33,7 @@ async function getBusinessData(url) {
       let phone = document.createElement('p');
       let website = document.createElement('p');
   
-      // Build the h2 content out to show the prophet's full name - finish the template string
+      // Build the h2 content 
       name.textContent = `${business.name} `;
       address.innerHTML = `<strong>Address</strong>: ${business.address}`;
       // Build the image logo by setting all the relevant attribute
