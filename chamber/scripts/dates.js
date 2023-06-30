@@ -62,7 +62,6 @@ datefield.textContent = fulldate;
 // console.log(banner);
 
 
-
 const daynames = [
 	"Sunday",
 	"Monday",
