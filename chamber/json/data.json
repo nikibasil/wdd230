@@ -34,31 +34,39 @@
       },
       {
         "name": "Bun Coffee",
-        "address": "2 Martin St, Armidale NSW 2478 Australia",
-        "phone": "0266809798",
+        "address": "17/1A Banksia Dr, Armidale NSW 2495 Australia",
+        "phone": "+61 2 6680 9798",
         "member": "Bronze Membership",
         "website": "https://www.buncoffee.com.au/",
         "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/bun-coffee-logo.png"
       },
       {
         "name": "Green Thumb Media",
-        "address": "2 Martin St, Armidale NSW 2478 Australia",
-        "phone": "0407 456 361",
+        "address": "660 The Gap Rd, Armidale NSW 2472 Australia",
+        "phone": " +61 407 456 361",
         "member": "Silver Membership",
         "website": "https://www.greenthumbmedia.com.au/",
         "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/gtm-logo.webp"
       },
+      // {
+      //   "name": "Armidale Farmers Market",
+      //   "address": "131 Handel Street, Armidale NSW 2350, Australia",
+      //   "phone": "+61 0432 383 488",
+      //   "member": "Silver Membership",
+      //   "website": "https://www.armidalefarmersmarket.com.au/",
+      //   "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/market-sm.webp"
+      // },
       {
-        "name": "Armidale Farmers Market",
-        "address": "131 Handel Street, Armidale NSW 2350, Australia",
-        "phone": "+61 0432 383 488",
-        "member": "Silver Membership",
-        "website": "https://www.armidalefarmersmarket.com.au/",
-        "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/market-sm.webp"
+        "name": "Saavy Beverages",
+        "address": "765 Lyme Street, Armidale NSW 2365, Australia",
+        "phone": "+61 0762 532 9262",
+        "member": "Gold Membership",
+        "website": "https://www.savvybeverage.com.au/",
+        "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/saavy-logo.webp"
       },
       {
         "name": "Tattersalls Hotel",
-        "address": "174 Beardy Street, Armidale NSW 2350, Australia",
+        "address": "174 Beardy Street, Armidale NSW 2342, Australia",
         "phone": "+61 02 6773 9600",
         "member": "Bronze Membership",
         "website": "https://www.tattersallsarmidale.com.au/",

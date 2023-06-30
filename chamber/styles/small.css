@@ -939,6 +939,9 @@ cards img {
 article.cards a:hover {
   color:#c3423fff;
 }
+article.list a:link{
+  color: #1b546aff;
+}
 
 
 /* .busdir h1 {
