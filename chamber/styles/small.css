@@ -822,6 +822,91 @@ div.mtable {
 /* margin: 4%; */
 } 
 
+/*----------- CONTACT FORM --------------*/
+
+.flex{
+  display: flex;
+  background-color: #f5f5f5ff;
+  flex-direction: column;
+}
+
+.flex > div {
+  /* background-color: #f1f1f1; */
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+/* Style inputs, select elements and textareas */
+.contact input[type=text], select, textarea{
+  width: 100%;
+  line-height: 2em;
+    padding-left: 20px;
+    padding-top: 5px;
+  box-sizing: border-box;
+  resize: vertical;
+  border: 1px solid black;
+float: left;
+margin: 0;
+padding: 0;
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+}
+
+.contact form label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  color: rgb(41, 35, 34);
+  font-size: 1.25rem;
+}
+
+/* Style the label to display next to the inputs */
+.contact label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the container */
+div.contact {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 0px 12px 1px lightgray;
+  margin-left:20px;
+  margin: auto;
+}
+div.contact h1{
+   color: #1b546aff;
+    text-align: left;
+}
+
+div.info{
+  max-width:80%;
+  margin: auto;
+  margin-top: -15px;
+  }
+  div.info h1, h2{
+  color: #1b546aff;
+  text-align: left;
+  }
+  div.info h2{
+      font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  div.info p{
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+/* Clear floats after the columns */
+.contactRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 /*----------- DIRECTORY --------------*/  
 .cards {
   display: grid;
@@ -929,6 +1014,7 @@ cards img {
  article.cards a {
   color: #1b546aff;
   font-weight:bold;
+  font-size: .75em;
  }
 
  article.cards a:visited {

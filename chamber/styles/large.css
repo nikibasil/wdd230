@@ -116,6 +116,13 @@
   form {
     margin: auto;
   }
+  .flex{
+    flex-direction: row;
+  }
+  div.contact, div.info {
+    max-width: 50%;
+  }
+ 
 
 	.holy-grail-grid {
         grid-template-columns: repeat(4, 1fr);
