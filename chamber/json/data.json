@@ -49,28 +49,28 @@
         "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/gtm-logo.webp"
       },
       {
-        "name": "Four Drunk Parrots",
-        "address": "2 Martin St, Armidale NSW 2478 Australia",
-        "phone": "+61 2 6686 0117",
-        "member": "Gold Membership",
-        "website": "https://4dp.com.au/services/tech/",
-        "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/brookfarm_logo.avif"
+        "name": "Armidale Farmers Market",
+        "address": "131 Handel Street, Armidale NSW 2350, Australia",
+        "phone": "+61 0432 383 488",
+        "member": "Silver Membership",
+        "website": "https://www.armidalefarmersmarket.com.au/",
+        "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/market-sm.webp"
       },
       {
-        "name": "Four Drunk Parrots",
-        "address": "2 Martin St, Armidale NSW 2478 Australia",
-        "phone": "+61 2 6686 0117",
+        "name": "Tattersalls Hotel",
+        "address": "174 Beardy Street, Armidale NSW 2350, Australia",
+        "phone": "+61 02 6773 9600",
         "member": "Bronze Membership",
-        "website": "https://4dp.com.au/services/tech/",
-        "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/brookfarm_logo.avif"
+        "website": "https://www.tattersallsarmidale.com.au/",
+        "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/tatersalls.webp"
       },
       {
-        "name": "A Non-profit Organization",
-        "address": "2 Martin St, Armidale NSW 2478 Australia",
-        "phone": "+61 2 6686 0117",
+        "name": "The Ascent Group",
+        "address": "13 Myrtle Dr, Armidale NSW 2350, Australia",
+        "phone": "+61 2 6776 8977",
         "member": "Non-profit Membership",
-        "website": "https://4dp.com.au/services/tech/",
-        "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/brookfarm_logo.avif"
+        "website": "https://ascentgroup.org.au/",
+        "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/ascent-logo.webp"
       }      
       
     ]

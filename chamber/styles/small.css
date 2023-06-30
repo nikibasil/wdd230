@@ -1014,7 +1014,7 @@ article.cards a:hover {
     color: #f9a03fff;
     text-decoration: underline;
   }
-  a:link {
+  p#map a:link {
     color:#7ac74fff; 
       }    
 
