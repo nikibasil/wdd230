@@ -803,7 +803,6 @@ tr:nth-child(2) th.top {
     height:50px;
 }
 
-
 form .member {
   display: grid;
 grid-template-rows: auto auto;
