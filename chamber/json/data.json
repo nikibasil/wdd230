@@ -48,14 +48,7 @@
         "website": "https://www.greenthumbmedia.com.au/",
         "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/gtm-logo.webp"
       },
-      // {
-      //   "name": "Armidale Farmers Market",
-      //   "address": "131 Handel Street, Armidale NSW 2350, Australia",
-      //   "phone": "+61 0432 383 488",
-      //   "member": "Silver Membership",
-      //   "website": "https://www.armidalefarmersmarket.com.au/",
-      //   "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/market-sm.webp"
-      // },
+      
       {
         "name": "Saavy Beverages",
         "address": "765 Lyme Street, Armidale NSW 2365, Australia",
