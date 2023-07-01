@@ -9,7 +9,9 @@ const cTime = now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds();
 const dateTime = cDate + ' ' + cTime;
 // console.log(dateTime);
 
-const formDate = document.querySelector('.date-time');
+
+/* Join */
+const formDate = document.getElementById('date-time');
 formDate.value = dateTime;
 // console.log(formDate.value);
 

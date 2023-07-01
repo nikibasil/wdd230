@@ -122,13 +122,15 @@
    .main-grid>.left-sidebar {
      grid-area: left-sidebar;
      /* background: #00bcd4; */
-     height: 100%;
+     /* height: 100%; */
+     margin-bottom: 0px;
+    padding-bottom: 0px;
    }
 
    .main-grid>.right-sidebar {
      grid-area: right-sidebar;
      /* background: #00bcd4; */
-    height: 99.9%;;
+    height: 98%;;
     margin-top: 20px;
    }
 
