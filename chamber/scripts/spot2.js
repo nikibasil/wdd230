@@ -1,8 +1,8 @@
-const member = 'json/data.json';
+const url = 'json/data.json';
+getBusinessData(url);
 
-
-async function getBusinessData(member) {
-  const response = await fetch(member);
+async function getBusinessData(url) {
+  const response = await fetch(url);
 
   if (response.ok) {
     const data = await response.json();
@@ -11,16 +11,12 @@ async function getBusinessData(member) {
   }
 }
 
-getBusinessData(member);
-
 const displayBusiness = (business) => {
-  // const cards = document.querySelector('article.cards'); // select the output container element
-  // let divSpot = "1";
+  const cards = document.querySelector('article.cards'); // select the output container element
+
   business.forEach((business) => {
-    if (business.member == "Gold Membership" || item.member == "Silver Membership" && divSpot < 4) {
     // Create elements to add to the div.cards element
-    let rbar = document.querySelector(".right-sidebar");
-    let spotSec = document.createElement('section');
+    let card = document.createElement('section');
     let name = document.createElement('h2');
     let address = document.createElement('p');
     let logo = document.createElement('img');
@@ -28,14 +24,9 @@ const displayBusiness = (business) => {
     let website = document.createElement('a');
     let member = document.createElement('p');
 
-    // spotSec.setAttribute("class", `spot${divSpot} color`);
-    // genPara.setAttribute("class", "pspot");
-    // cmpInfo.setAttribute("class", "contact");
-
-
     // Build the h2 content 
     name.textContent = `${business.name} `;
-    // address.innerHTML = `<strong>Address</strong>: ${business.address}`;
+    address.innerHTML = `<strong>Address</strong>: ${business.address}`;
     // Build the image logo by setting all the relevant attribute
     phone.textContent = `${business.phone}`;
     website.textContent = `${business.website}`;
@@ -49,18 +40,16 @@ const displayBusiness = (business) => {
     website.setAttribute('target', '_blank')
 
     // Append the section(card) with the created elements
-    spotSec.appendChild(name);
-    spotSec.appendChild(logo);
-    // card.appendChild(address);
-    spotSec.appendChild(phone);
-    spotSec.append(member);
-    spotSec.appendChild(website);
+    card.appendChild(name);
+    card.appendChild(logo);
+    card.appendChild(address);
+    card.appendChild(phone);
+    card.append(member);
+    card.appendChild(website);
 
 
     // card.append(p)
-    rbar.appendChild(spotSec);
-    divSpot ++;
-       } 
+    cards.appendChild(card);
   })// end of forEach loop
 }
 // end of function expression

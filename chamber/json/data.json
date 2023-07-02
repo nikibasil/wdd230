@@ -12,7 +12,7 @@
         "name": "Brookfarm",
         "address": "14B Banksia Drive, Armidale NSW 2481 Australia",
         "phone": "+61 2 6620 9500",
-        "member": "Gold Membership",
+        "member": "Bronze Membership",
         "website": "https://brookfarm.com.au",
         "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/brookfarm_logo.avif"
       },
@@ -28,7 +28,7 @@
         "name": "Southern Cross University",
         "address": "Military Rd, East Lismore NSW 2480 Australia",
         "phone": "1800 005 687",
-        "member": "Gold Membership",
+        "member": "Bronze Membership",
         "website": "https://www.scu.edu.au/",
         "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/scu-logo.png"
       },
@@ -36,7 +36,7 @@
         "name": "Bun Coffee",
         "address": "17/1A Banksia Dr, Armidale NSW 2495 Australia",
         "phone": "+61 2 6680 9798",
-        "member": "Bronze Membership",
+        "member": "Gold Membership",
         "website": "https://www.buncoffee.com.au/",
         "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/bun-coffee-logo.png"
       },
@@ -53,7 +53,7 @@
         "name": "Saavy Beverages",
         "address": "765 Lyme Street, Armidale NSW 2365, Australia",
         "phone": "+61 0762 532 9262",
-        "member": "Gold Membership",
+        "member": "Bronze Membership",
         "website": "https://www.savvybeverage.com.au/",
         "imageurl": "https://nikibasil.github.io/wdd230/chamber/images/saavy-logo.webp"
       },
