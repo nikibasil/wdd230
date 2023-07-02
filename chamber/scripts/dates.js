@@ -15,13 +15,10 @@ const formDate = document.getElementById('date-time');
 formDate.value = dateTime;
 // console.log(formDate.value);
 
-
-
 // GET YEAR
 // update = new Date(document.lastModified)
 const update = new Date(document.lastModified)
 document.getElementById("dateForm").innerHTML = update.toDateString();
-
 
 const y = new Date().getFullYear();
 document.getElementById("thisyear").innerHTML = y;

@@ -1072,6 +1072,10 @@ article.list a:link{
      /* margin-top: 10px; */
 
    }
+   .footer p{
+    
+      font-size: 1rem;
+   }
 
    hr {
      color: grey;
