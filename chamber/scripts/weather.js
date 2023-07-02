@@ -42,8 +42,8 @@ function displayResults(weatherData) {
 const temp = weatherData.main.temp;
 const wSpeed = weatherData.wind.speed;
 // const wSpeed = weatherData.wind.speed.toFixed(0);
-console.log(temp);
-console.log(wSpeed);
+// console.log(temp);
+// console.log(wSpeed);
 
 if (temp <= 50 && wSpeed > 3.0) {
 

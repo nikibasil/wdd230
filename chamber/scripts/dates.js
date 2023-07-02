@@ -13,7 +13,7 @@ const dateTime = cDate + ' ' + cTime;
 /* Join */
 const formDate = document.getElementById('date-time');
 formDate.value = dateTime;
-// console.log(formDate.value);
+console.log(formDate.value);
 
 // GET YEAR
 // update = new Date(document.lastModified)
