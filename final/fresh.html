@@ -20,7 +20,7 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Karma&family=Poltawski+Nowy&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Rubik:wght@300;400&display=swap' rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
 </head>
@@ -66,7 +66,7 @@
     
                     <form action="get" method="dialog" id="drink">
                         
-                        <div class="contactRow">
+                        <div class="contactRow" id="contactRow">
                             <label for="fname">First Name*</label>
                             <input type="text" id="fname" name="firstname" required autocomplete="on">
     
@@ -85,20 +85,32 @@
                         </div>
 
                         <label class="contactRow" for="fruit1">Select a Fruit
-                            <select name="selectFruit" id="fruit1"></select>
+                            <select name="selectFruit" id="fruit1">
+                                <span class="option"></span>
+                            </select>
                         </label>
         
                         <label class="contactRow" for="fruit2">Select a Fruit
-                            <select name="selectFruit" id="fruit2"></select>
+                            <select name="selectFruit" id="fruit2">
+                                <span class="option"></span>
+                            </select>
+                        
                         </label>
         
                         <label class="contactRow" for="fruit3">Select a Fruit
-                            <select name="selectFruit" id="fruit3"></select>
+                            <select name="selectFruit" id="fruit3">
+                                <span class="option"></span>
+                            </select>
                         </label>
                         <div class="contactRow">
                             <label for="subject">Feedback</label>
                             <textarea id="subject" name="subject" placeholder="Write something.."
                                 style="height:200px"></textarea>
+                        </div>
+                       <div class="contactRow">
+                            <label for="contact">Contact</label>
+                            <textarea id="contact" name="contact" placeholder="Write something.."
+                               ></textarea>
                         </div>
                         <div id="feedback"></div>
                         <div id="comment"></div>
@@ -138,8 +150,8 @@
     </footer>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/dates.js"></script>
-    <script src="scripts/fruit.js">        
-    </script>
+    <script src="scripts/fruit.js"> </script>
+    <script src="scripts/lazyload.js"></script>
   </body>
   </html>
   

@@ -1,8 +1,8 @@
-const URL = 'https://brotherblazzard.github.io/canvas-content/fruit.json';
+const url = 'https://brotherblazzard.github.io/canvas-content/fruit.json';
 
 const elements = document.querySelectorAll('select')
 
-fetch(URL)
+fetch(url)
     .then(fruitData => fruitData.json())
     .then(fruitData => {
         console.log(fruitData);
@@ -53,15 +53,20 @@ formElement.addEventListener('submit', function(e) {
         fruit.innerText = element.value;
         fruitList.append(fruit);
         combo.push(fruit.innerText);
+
+    //  feedbackElement.innerHTML = `Comments: ${formElement.comment.value}! <br>`;
+
+    // let comment = 'Comments: ${formElement.comment.value}`; 
+    // feedbackElement.append(comment);
     })
     feedbackElement.append(fruitList);
 
     //* make the feedback element visible, add some styling dynamically.
-    feedbackElement.style.display = 'block';
-    feedbackElement.style.textAlign = 'center';
-    feedbackElement.style.fontSize = '1.9rem';
-    feedbackElement.style.fontFamily = 'Amatic SC';
-    feedbackElement.style.padding = '10px';
+    // feedbackElement.style.display = 'block';
+    // feedbackElement.style.textAlign = 'center';
+    // feedbackElement.style.fontSize = '1.9rem';
+    // feedbackElement.style.fontFamily = 'Amatic SC';
+    // feedbackElement.style.padding = '10px';
     
     //* add a class to move everything down so our message doesn't cover it.
     document.body.classList.toggle('moveDown');

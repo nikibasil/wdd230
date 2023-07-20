@@ -11,92 +11,116 @@
   .topnav a {
     float: left;
     display: block;
-   
+
   }
+
   .topnav .icon {
     display: none;
   }
 
-  .topnav a:not(:first-child) {display: block;}
+  .topnav a:not(:first-child) {
+    display: block;
+  }
+
   .topnav a.icon {
     float: right;
     display: none;
-     
+
   }
 
-  .topnav a:not(:first-child) {display: block;}
-    .topnav a.icon {
-      float: left;
-      display: none;
-      padding: 5px;
+  .topnav a:not(:first-child) {
+    display: block;
+  }
 
-    }
+  .topnav a.icon {
+    float: left;
+    display: none;
+    padding: 5px;
 
-    .topnav.responsive a {
-      float: right;
-      display: none;
-      text-align: right;
-    }
-   header .navigation .menu-list {
+  }
+
+  .topnav.responsive a {
+    float: right;
+    display: none;
+    text-align: right;
+  }
+
+  header .navigation .menu-list {
     width: 60%;
   }
 
-  header .navigation .menu-list li a{
+  header .navigation .menu-list li a {
     font-size: 1rem;
   }
-  
-header .navigation .menu-list {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 45%;
-  margin: auto 20px auto 0;
-}
 
-header .navigation .humbarger {
-  margin-right: 20px;
-  display: none;
- }
-
-    .main-content { 
-        grid-template-columns: repeat(2, 1fr); 
-        max-width: 1200px;
-      }
-      .banner-head {
-        font: size 4em;
-    }
-    .logo img{
-      width: 60%;
-      /* margin-left: 0px; */
-    } 
-
-    card, .card-2 {
-        grid-column: 1/2;
-      }
-
-      .card-3 {
-        grid-column: 2/3;
-      }
-  .two-column-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    
-      
-    .three-columns {
-      display:grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      place-items: center;
+  header .navigation .menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    margin: auto 20px auto 0;
   }
 
-  h1.banner-head  {
+  header .navigation .humbarger {
+    margin-right: 20px;
+    display: none;
+  }
+
+  .main-content {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1200px;
+  }
+
+  .banner-head {
+    font: size 4em;
+  }
+
+  .logo img {
+    width: 60%;
+    /* margin-left: 0px; */
+  }
+
+  card,
+  .card-2 {
+    grid-column: 1/2;
+  }
+
+  .card-2 img,
+  .card-3 img {
+    width: 100%;
+    border: solid 1px #3E000C;
+  }
+
+  .card-3 {
+    grid-column: 2/3;
+  }
+
+  .two-column-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+  .three-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+
+  h1.banner-head {
     font-size: 3em;
     top: 175px;
-    
-  }
-  .button {
-    left:450px;
+
   }
 
-} 
+  .button {
+    left: 450px;
+  }
+
+  #iconsContainer{
+    
+        flex-direction: row;
+    }
+
+}
