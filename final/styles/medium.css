@@ -1,5 +1,36 @@
 @media (min-width: 600px) {
 
+  .topnav .icon {
+    display: none;
+  }
+
+  .topnav a:not(:first-child) {display: block;}
+  .topnav a.icon {
+    float: right;
+    display: none;
+     
+  }
+
+  .topnav.responsive {position: absolute;}
+    .topnav.responsive .icon {
+      position: relative;
+      right: 0;
+      top: 0;
+    }
+
+  .topnav a:not(:first-child) {display: block;}
+  .topnav a.icon {
+    float: left;
+    display: none;
+    padding: 5px;
+
+  }
+  .topnav.responsive a {
+    float: right;
+    display: none;
+    text-align: right;
+  }
+
     header .navigation .menu-list {
         position: absolute;
         top: 12vh;
@@ -63,8 +94,14 @@
     place-items: center;
 }
 
-.l-content {
-    grid-template-columns: 2fr 2fr;
-
+h1.banner-head  {
+ 
+  top: 150px;
+  
 }
+.button {
+  left:450px;
+}
+
+
 }

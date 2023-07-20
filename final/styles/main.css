@@ -1,170 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Rubik:wght@300;400&display=swap');
 
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+ body {
+  max-width: 1200px;
+  font-family: "Bitter", Helvetica, sans-serif;
+  /* margin: 0 auto; */
+  /* padding: 4em; */
+  font-size: 18px;
+  /* text-align: center; */
+} 
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Bitter", Helvetica, sans-serif;
   color: #4e0c1fff;
-}
-
-/*  Look around below...but DON'T CHANGE ANYTHING! */
-
-
-/* body {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 4em;
-  font-size: 18px;
-  text-align: center;
-}
-img {
-  display: block;
-  margin: 0 auto;
- 
-}
-
-.back {
-  display: block;
-  margin: 0 auto;
-  width: 300px;
-  height: 200px
-} 
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
-  color: var(--headline-color-on-white);
-}
-h2 {
-  text-align: center;
-}
-hr {
-  height: 3px;
-  margin: 35px 0;
-  background: var(--accent1-color);
-}
-header {
-  padding: 1em;
-  text-align: center;
-  color: var(--headline-color-on-color);
-  background-color: var(--paragraph-background-color);
-}
-header > h1, header > h2 {
-  color: var(--headline-color-on-color);
-}
-
-p {
-  font-family: var(--paragraph-font);
-  color: var(--paragraph-color-on-white);
-  padding: 1em;
-}
-.colors {
-  width: 100%;
-  min-width: 350px;
-  margin: 30px auto;
-  text-align: center;
-}
-.colors th {
-  background-color: #999;
-}
-.colors td{
-  width: 25%;
-  height: 3em;
-}
-
-.primary {
-  background-color: var(--primary-color);
-}
-.secondary {
-  background-color: var(--secondary-color);
-}
-.accent1 {
-  background-color: var(--accent1-color);
-}
-.accent2{
-  background-color: var(--accent2-color);
-}
-
-p.colored {
-  background-color: var(--paragraph-background-color);
-  color: var(--paragraph-color-on-color);
-}
-
-nav {
-  background-color: var(--nav-background-color);
-  line-height: 3em;
-  text-align: center;
-  font-size: 1.2em;
-}
-nav  {
-  list-style-type: none;
-  display: flex;
-
-}
-nav a {
-  padding:1em;
-  min-width: 120px;
-  text-decoration: none;
-  padding: 10px;
-
-}
-nav a:link, nav a:visited {
-  color: var(--nav-link-color);
-}
-nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
-}
-
-.sitemap {
-  display: grid;
-  justify-content: center;
-
-  grid-template-columns: repeat(6, 15%);
-  grid-template-rows: 3em 1.5em 1.5em 3em;
-  grid-template-areas: ". . home home . ."
-    ". . . top . ."
-    ". left left right right ."
-    "page2 page2 . . page3 page3";
-}
-.sitemap > div {
-
-  text-align: center;
-
-}
-.sm-home {
-  grid-area: home;
-  background-color: #ccc;
-  line-height: 3em;
-}
-.sm-page2 {
-  grid-area: page2;
-  background-color: #ccc;
-  line-height: 3em;
-}
-.sm-page3 {
-  grid-area: page3;
-  background-color: #ccc;
-  line-height: 3em;
-}
-
-.top {
-  grid-area: top;
-  border-left: 1px solid;
-}
-
-.left {
-  grid-area: left;
-  border-top: 1px solid;
-  border-left: 1px solid;
-}
-
-.right {
-  grid-area: right;
-  border-top: 1px solid;
-  border-right: 1px solid;
-} */
-
-
-* {
-  box-sizing: border-box;
 }
 
 .header, header , .footer , footer{
@@ -333,6 +186,7 @@ header {
     z-index: 4;
     display:flex;
     flex-direction: column;
+    max-width: 1200px;
 }
 
 .topnav {
@@ -340,39 +194,16 @@ header {
   background-color: #9ACD32;
 }
 
-/* .topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-} */
 
 
 
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  /* .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
-  }
-}
-
-
-/* .topnav {
-    overflow: hidden;
-    background-color: #3E000C;
-    /* position: fixed; */
-    /* width: 100%;
-    display: flex;
- align-items: center; */
- /* push the nav to the right */
- /* margin-left: auto; */
- /* move it a bit back away from the edge */
- /* margin-right: 20px;
+     
   } */
+
    
   .topnav a {
     float: left;
@@ -381,7 +212,7 @@ header {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
   }
   
   .topnav a:hover {
@@ -396,19 +227,19 @@ header {
   }
   
   .topnav .icon {
-    display: none;
+    display: block;
   }
   
-  @media screen and (max-width: 600px) {
+  /* @media screen and (max-width: 600px) { */
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
       padding: 5px;
     }
-  }
+  /* } */
   
-  @media screen and (max-width: 600px) {
+  /* @media screen and (max-width: 600px) { */
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
       position: absolute;
@@ -420,7 +251,7 @@ header {
       display: block;
       text-align: left;
     }
-  }
+  /* } */
 /*
  * -- Layout Styles --
  */
@@ -439,6 +270,10 @@ header {
   font-weight: bold;
   text-align: center;
  }
+
+ .city {
+  text-align: center;
+ }
   
   /*
    * -- MENU STYLES --
@@ -454,9 +289,6 @@ header {
   
   /*
    * -- BANNER --
-   * The top banner with the headings. By using a combination
-   * of `display: table;` and `display: table-cell;`, we can
-   * vertically center the text.
    */
   
   .banner {
@@ -484,10 +316,17 @@ header {
     color: (--primary-color);
     font-weight: 500;
     text-shadow: 0 1px 1px black;
-    top: 85px;
+    /* top: 85px;
     left: 85px;
-    right: 32px;
+    right: 32px; */
     position: absolute;
+  }
+
+  h1.banner-head  {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    font-size: 2em;
   }
 
   .banner-fresh {
@@ -549,13 +388,18 @@ header {
     transition: 220ms all ease-in-out;
   }
   
+  .card-2 a.button{
+    left: auto;
+   
+    bottom: auto;
+  }
   
   /*
    * -- PRICING TABLE BUTTON --
    * Styles for the "Choose" button at the bottom of a pricing table.
    * This inherits from Pure Button.
    */
-  .button-choose {
+  /* .button-choose {
     border: 1px solid #ccc;
     background: #fff;
     color: #333;
@@ -568,7 +412,7 @@ header {
   .information-head {
     color: black;
     font-weight: 500;
-  }
+  } */
 
 footer {
   display: flex;
@@ -701,6 +545,7 @@ footer {
     /* background-color: rgba(60, 135, 179, 0.7); */
     /* background-color:rgb(245 237 240 / 17%); */
     overflow: hidden;
+    position:relative;
   }
 
   .hero-banner{
@@ -770,25 +615,27 @@ footer {
   }
   
   .button {
-    font-size: 1.25rem;
+    font-size: 1.35rem;
     font-weight: 500;
     text-decoration: none;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     align-self: start;
-    background-color: rgb(245, 226, 52);
-    color: #4e0c1fff;
+    /* background-color: rgb(245, 226, 52); */
+    background-color:#BA1D05;
+    /* color: #4e0c1fff; */
+    color:white;
     border-radius: 8px;
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.3);
     padding: 0.25em 0.75em;
     min-width: 10ch;
-    min-height: 44px;
+    min-height: 55px;
     text-align: center;
     line-height: 1.1;
     transition: 220ms all ease-in-out;
-    bottom: 400px;
-    left: 85px;
+    bottom:80px;
+    left: 55px;
     /* right: 32px; */
     position: absolute;
   }
@@ -850,7 +697,7 @@ main {
   padding: .5rem;
   /* height: 4rem; */
   grid-column: span 2;
-  border: 1px solid #ddd;
+  /* border: 1px solid #ddd; */
     margin: 0 0.5em 2em;
     /* padding: 0 0 3em; */
     background: #f7f7f7;

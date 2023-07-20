@@ -1,5 +1,42 @@
 @media (min-width: 900px) {
 
+  /* .navigation {
+    position: fixed;
+      width: 100%;
+      z-index: 4;
+      display:flex;
+      flex-direction: column;
+  } */
+
+  .topnav a {
+    float: left;
+    display: block;
+   
+  }
+  .topnav .icon {
+    display: none;
+  }
+
+  .topnav a:not(:first-child) {display: block;}
+  .topnav a.icon {
+    float: right;
+    display: none;
+     
+  }
+
+  .topnav a:not(:first-child) {display: block;}
+    .topnav a.icon {
+      float: left;
+      display: none;
+      padding: 5px;
+
+    }
+
+    .topnav.responsive a {
+      float: right;
+      display: none;
+      text-align: right;
+    }
    header .navigation .menu-list {
     width: 60%;
   }
@@ -45,14 +82,21 @@ header .navigation .humbarger {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .l-content {
-            grid-template-columns: 2fr 2fr;
-    }
+    
       
     .three-columns {
       display:grid;
       grid-template-columns: 1fr 1fr 1fr;
       place-items: center;
+  }
+
+  h1.banner-head  {
+    font-size: 3em;
+    top: 175px;
+    
+  }
+  .button {
+    left:450px;
   }
 
 } 
