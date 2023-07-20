@@ -1,0 +1,149 @@
+
+<!-- Doctype HTML5 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set character encoding for the document -->
+    <meta charset="utf-8">
+    <!-- Viewport for responsive web design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <!-- Document Title -->
+    <title>Monique Roberts</title>
+    <!-- Meta Description -->
+    <meta name="description" content="Assignment Portal for Monique Roberts: WDD230 Web Frontend Development at Brigham Young University - Idaho">
+    
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Karma&family=Poltawski+Nowy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+
+
+  <body>
+   <div class="navigation">
+        <div class="logo"><img src="images/bf-logo7.png"></div>
+    <div class="topnav" id="myTopnav">
+        
+        <a href="index.html">Home</a>
+            <a href="fresh.html" class="active">Fresh</a>
+            <a href="about-us.html">About Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      </div>
+               
+    <main>
+            
+    <section class="fresh">
+        <!-- <div class="banner"> -->
+        <div class="hero-banner">
+            
+            <h1 class="banner-fresh">
+                Fresh
+            </h1>
+            <!-- <a href="#" class="button">Make your Smoothie</a> -->
+        </div>
+        <!-- <class="banner-text"> <h1 class="banner-head">
+            Bountiful Foods
+        </h1></class> -->
+        <!-- <button class="join"> <a href="join.html" class="info-link">Join the Chamber</a></button> -->
+        <img  class="fresh-img" src="images/smoothie-banner2.webp">
+    </section> 
+    
+    
+<hr>
+        <div class="city"><h2>Make your own drink!</h2></div>  
+        
+            <div class="flex">  
+
+                <div class="contact">
+    
+                    <form action="get" method="dialog" id="drink">
+                        <h1>Email Us</h1>
+                        <div class="contactRow">
+                            <label for="fname">First Name*</label>
+                            <input type="text" id="fname" name="firstname" required autocomplete="on">
+    
+                        </div>
+                        <div class="contactRow">
+                            <label for="lname">Last Name*</label>
+                            <input type="text" id="lname" name="lastname" required autocomplete="on">
+                        </div>
+                        <div class="contactRow">
+                            <label for="email">Email*</label>
+                            <input type="text" id="email" name="email" required autocomplete="on">
+                        </div>
+                        <div class="contactRow">
+                            <label for="phone">Phone</label>
+                            <input type="text" id="phone" name="phone" autocomplete="on">
+                        </div>
+
+                        <label class="contactRow" for="fruit1">Select a Fruit
+                            <select name="selectFruit" id="fruit1"></select>
+                        </label>
+        
+                        <label class="contactRow" for="fruit2">Select a Fruit
+                            <select name="selectFruit" id="fruit2"></select>
+                        </label>
+        
+                        <label class="contactRow" for="fruit3">Select a Fruit
+                            <select name="selectFruit" id="fruit3"></select>
+                        </label>
+                        <div class="contactRow">
+                            <label for="subject">Feedback</label>
+                            <textarea id="subject" name="subject" placeholder="Write something.."
+                                style="height:200px"></textarea>
+                        </div>
+                        <div id="feedback"></div>
+                        <div id="comment"></div>
+                        <div class="contactRow">
+                            <label for="comment">Comments</label>
+                            <textarea id="comment" name="comment" placeholder="Write something.."
+                                style="height:200px"></textarea>
+                        </div>
+                        <div class="contactRow">
+                            <input class="submitBtn" type="submit" value="Make my Drink">
+                        </div>
+                    </form>
+                </div>
+                <div id="feedback"></div>
+                <div id="order"></div>
+            </div>
+           
+      
+        </div> 
+        </div>
+    </main>
+    <footer>
+        
+    <div class="footer l-box">
+        <p>
+            &copy;<span id='copyrightYear'></span> | Bountiful Foods | Santa Barabra, CA | (805) 963-0645  <br>
+        Last Modified: <span id='lastUpdated'></span>
+        </p>
+    </div>
+    <div class="social">
+        <a href="https://facebook.com"  id="sIcon" class="fa fa-facebook" alt="facebook"></a>
+        <a href="https://linkedin.com" id="sIcon" class="fa fa-linkedin" alt="linkedin"></a>
+        <!-- <a href="#" class="fa fa-twitter"></a> -->
+
+    </div>
+    
+    </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/dates.js"></script>
+    <script src="scripts/fruitdata.js">        
+    </script>
+  </body>
+  </html>
+  
+  
