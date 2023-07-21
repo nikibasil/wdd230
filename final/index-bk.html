@@ -20,70 +20,71 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+    <link href='https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Rubik:wght@300;400&display=swap' rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
-<body>
-    <header>
-        <div class="navigation">
-            <div class="logo"><img src="images/bf-logo7.webp" alt="Bountiful Foods logo"></div>
-            <div class="topnav" id="myTopnav">
 
-                <a href="index.html" class="active">Home</a>
-                <a href="fresh.html">Fresh</a>
-                <a href="about-us.html">About Us</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div>
+
+<body>
+    <div class="navigation">
+        <div class="logo"><img src="images/bf-logo7.webp" alt="Bountiful Foods logo"></div>
+        <div class="topnav" id="myTopnav">
+
+            <a href="index.html" class="active">Home</a>
+            <a href="fresh.html">Fresh</a>
+            <a href="about-us.html">About Us</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
-    </header>
+    </div>
 
     <main>
 
-        <section class="top">
-
+        <!-- <section class="top"> -->
+        <header class="top">   
+           
             <div class="hero-banner">
-
+             
                 <h1 class="banner-head">
                     From <br>Farm to<br>Table
                 </h1>
                 <a href="fresh.html" class="button">Make your Drink!</a>
             </div>
-
+            
             <img src="images/hero6-600.webp" alt="farmers produce hero" loading="lazy">
-        </section>
-
+        <!-- </section> -->
+        </header>
         <div class="three-columns">
             <h2>Quality Fresh Produce</h2>
             <h2>Local Farmers</h2>
             <h2>Fast Delivery</h2>
         </div>
         <!-- <hr> -->
-
+        
         <div class="two-column-grid">
-
+            
             <div class="card-2">
                 <a href="fresh.html" class="button">Mix your Drink</a>
                 <img src="images/fruit-584-333.webp" alt="create your own smoothie" loading="lazy">
             </div>
             <div class="card-3">
-
+                
                 <img src="images/specials2.webp" alt="specials" loading="lazy">
-            </div>
-        </div>
+            </div> 
+        </div> 
         <hr>
         <div class="card-long">
-            <section id="information">
+            <section id="information"> 
                 <div class="information-content">
                     <h1>Number of Specialty drinks you have ordered</h1>
                     <h2>1</h2>
                     <div id="num-drink"></div>
                 </div>
             </section>
-
+               
         </div>
 
         <hr>
@@ -91,7 +92,7 @@
             <h2>Santa Barbara Coast</h2>
         </div>
         <div class="two-column-grid">
-            <div class="card-2"><img src='images/sb3.jpg' alt='Santa Barbara Landscape' loading="lazy"></div>
+            <div class="card-2"><img src='images/sb3.jpg' alt ='Santa Barbara Landscape' loading="lazy"></div>
             <div class="card-3">
                 <p>Situated on a south-facing section of coastline, the longest
                     such section on the West Coast of the United States, the city lies
@@ -102,41 +103,41 @@
                     breathtaking beaches, soaring mountains, verdant vineyards, elevated enclaves and eclectic
                     communities.</p>
             </div>
-
-        </div>
-        <!-- <div class="city"> -->
-        <hr>
-        <div class="card-long">
-            <div>
-                <h2>Santa Barbara Weather</h2>
-            </div>
-            <div id="weatherContainer">
-
-                <div id="iconsContainer">
-
-                    <div class="icons">
-                        <p class="weather" id="day1"></p>
-                        <div class="image"><img src="dots.png" class="imgClass" id="img1" loading="lazy"></div>
-
-                        <p class="temp" id="temp1">Loading...</p>
-                        <div id="des1"> </div>
-                    </div>
-                    <div class="icons">
-                        <p class="weather" id="day2"></p>
-                        <div class="image"><img src="dots.png" class="imgClass" id="img2" loading="lazy"></div>
-
-                        <p class="temp" id="temp2">Loading...</p>
-                        <div id="des2"> </div>
-                    </div>
-                    <div class="icons">
-                        <p class="weather" id="day3"></p>
-                        <div class="image"><img src="dots.png" class="imgClass" id="img3" loading="lazy"></div>
-                        <p class="temp" id="temp3">Loading...</p>
-                        <div id="des3"> </div>
-                    </div>
-
+            
+         </div>   
+            <!-- <div class="city"> -->
+                <hr>  
+            <div class="card-long">
+                <div>
+                    <h2>Santa Barbara Weather</h2>
                 </div>
-            </div>
+                <div id="weatherContainer">
+
+                    <div id="iconsContainer">
+
+                        <div class="icons">
+                            <p class="weather" id="day1"></p>
+                            <div class="image"><img src="dots.png" class="imgClass" id="img1" loading="lazy"></div>
+
+                            <p class="temp" id="temp1">Loading...</p>
+                            <div id="des1"> </div>
+                        </div>
+                        <div class="icons">
+                            <p class="weather" id="day2"></p>
+                            <div class="image"><img src="dots.png" class="imgClass" id="img2" loading="lazy"></div>
+
+                            <p class="temp" id="temp2">Loading...</p>
+                            <div id="des2"> </div>
+                        </div>
+                        <div class="icons">
+                            <p class="weather" id="day3"></p>
+                            <div class="image"><img src="dots.png" class="imgClass" id="img3" loading="lazy"></div>
+                            <p class="temp" id="temp3">Loading...</p>
+                            <div id="des3"> </div>
+                        </div>
+
+                    </div>
+                </div>
 
     </main>
     <footer>
