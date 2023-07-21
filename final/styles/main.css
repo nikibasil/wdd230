@@ -850,7 +850,22 @@ margin: 15px;
 img.weather-icon{
    width: 50px;
 }
-/*----------- CONTACT FORM --------------*/
+/*----------- DRINK ORDER FORM --------------*/
+
+div#feedback.feedback, div.order{
+
+  margin: 0px auto 20px auto;
+background: #3E000C;
+color: #D0EBB2;
+padding: 20px;
+ 
+    text-align: center;
+}
+
+h3 {
+  padding: 20px 0px 0px 0px;
+  color: #FB4B4E;
+}
 
 form#drink{
   border: #3E000C 2px solid;
