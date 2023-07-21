@@ -1,3 +1,9 @@
+document.addEventListener('DOMContentLoaded', function () {
+    const fruitSelect1 = document.getElementById('fruit1');
+    const fruitSelect2 = document.getElementById('fruit2');
+    const fruitSelect3 = document.getElementById('fruit3');
+  
+
 const url = 'https://brotherblazzard.github.io/canvas-content/fruit.json'
 const fruitPick = document.querySelectorAll('select')
 
@@ -202,6 +208,8 @@ function updateDrinkCountCard() {
             order.append(formDate);
         });
     });
+
+    
     // });
 // })
 // });
